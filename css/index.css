@@ -1,0 +1,443 @@
+
+
+/* section의 article1 구역  */
+#section .article1 > .slide1{
+    background: url(../images/mainpage/main8.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    /* filter: brightness(60%); */
+    
+}
+
+#section .slide1 > .slide1-text{ padding: 15% 15% 0;}
+
+#section .slide1 > .slide1-text h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#section .slide1 > .slide1-text h2 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+#section .slide1 > .slide1-text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.8;
+}
+#section .slide1 > .slide1-text a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-top: 35px;
+    padding: 16px 36px;
+    border-radius: 30px;
+    background-color: #fa5c5c;
+    transition: all 0.4s;
+    
+}
+
+#section .slide1 > .slide1-text a:hover{
+    background: #fff;
+    color: #fa5c5c;
+}
+
+
+/* 슬라이드 2 */
+#section .article1 > .slide2{
+    background: url(../images/mainpage/main1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+#section .slide2 > .slide2-text{ padding: 15% 15% 0;}
+
+#section .slide2 > .slide2-text h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#section .slide2 > .slide2-text h2 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+#section .slide2 > .slide2-text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.8;
+}
+#section .slide2 > .slide2-text a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-top: 35px;
+    padding: 16px 36px;
+    border-radius: 30px;
+    background-color: #fa5c5c;
+    transition: all 0.4s;
+}
+
+#section .slide2 > .slide2-text a:hover{
+    background: #fff;
+    color: #fa5c5c;
+}
+
+/* 슬라이드 3 */
+#section .article1 > .slide3{
+    background: url(../images/inside/inside17.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+#section .slide3 > .slide3-text{ padding: 15% 15% 0;}
+
+#section .slide3 > .slide3-text h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#section .slide3 > .slide3-text h2 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+#section .slide3 > .slide3-text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.8;
+}
+#section .slide3 > .slide3-text a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-top: 35px;
+    padding: 16px 36px;
+    border-radius: 30px;
+    background-color: #fa5c5c;
+    transition: all 0.4s;
+}
+
+#section .slide3 > .slide3-text a:hover{
+    background: #fff;
+    color: #fa5c5c;
+}
+
+
+/* section의 article2 구역 */
+
+.article2{
+    width: 1300px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.aboutus{
+    position: relative;
+    margin-top: 100px;
+}
+
+.aboutus .aboutus1{
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding-right: 70px;
+    display: block;
+    
+}
+
+.aboutus .aboutus1 > .info {
+    margin-top: 50px;
+    display: block;
+    
+}
+
+.aboutus .aboutus1 > .info > .icon{
+    font-size: 48px;
+    color: #fa5c5c;
+}
+
+.aboutus .aboutus1 > .info > h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin: 15px 0 20px;
+}
+
+.aboutus .aboutus1 > .info > p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    line-height: 1.8;
+}
+
+.aboutus .aboutus2 > img {
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin-top: 50px;
+    
+}
+
+.aboutus .aboutus3{
+    width: 30%;
+    float: right;
+    padding-left: 70px;
+    display: block;
+    
+}
+
+.aboutus .aboutus3 > .info {
+    margin-top: 50px;
+    display: block;
+    
+}
+
+.aboutus .aboutus3 > .info > .icon{
+    font-size: 48px;
+    color: #fa5c5c;
+}
+
+.aboutus .aboutus3 > .info > h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin: 15px 0 20px;
+}
+
+.aboutus .aboutus3 > .info > p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    line-height: 1.8;
+}
+
+
+ /* section의 article3구역  */
+
+ .article3{
+    height: 400px;
+    background: #fa5c5c;;
+    clear: right;
+} 
+
+.article3 .part3{
+    text-align: center;
+    padding: 0 15%;
+    padding-top: 100px;
+}
+
+ .article3 .part3 h2{
+    font-size: 48px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+ }
+
+ .article3 .part3 p{
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.75;
+    margin-bottom: 35px;
+    opacity: .8;
+ }
+
+ .article3 .part3 a{
+    font-size: 13px;
+    letter-spacing: .1em;
+    border-radius: 30px;
+    padding: 20px 30px;
+    min-width: 170px;
+    color: #fff;
+    border-color: rgba(255,255,255,.8);
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all 0.4s;
+ }
+
+ .article3 .part3 a:hover{
+    background: #000;
+    border: none;
+ }
+
+
+/* section의 article4 구역  */
+.article4{
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.article4 .inside-text{
+    text-align: center;
+    margin: 50px;
+    /* margin-bottom: 100px; */
+}   
+
+.article4 .inside-text h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: #222;
+}
+
+.article4 .inside-text p{
+    color: #777;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+
+.article4 img{
+    width: 302px;
+    height: 302px;
+    margin: 5px;
+    transition: all 0.4s;
+}
+
+.article4 img:hover{
+    border: 7px solid #fa5c5c;
+    transform:scale(1.1);  
+    cursor: pointer; 
+}
+
+
+/* section의 article5 구역  */
+.article5 { padding:100px 0; 
+    background:url(../images/rf2.jpg) no-repeat center top;
+    background-size:cover;
+    background-attachment: fixed; 
+    margin-top:100px; 
+    text-align:center; 
+}
+.article5 p { 
+    padding: 15px 0 25px; 
+    word-break:keep-all;
+    margin-bottom: 20px; 
+    font-weight: 400;
+    color:#fa5c5c;
+}
+
+.article5 h2 {  
+    word-break:keep-all;  
+    font-size: 36px;
+    font-weight: 500;
+    color: #fa5c5f;
+    line-height: 1.5;
+}
+
+/* section의 article6 구역  */
+.article6{
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.article6 .gallery-text{
+    text-align: center;
+    margin: 50px;
+    /* margin-bottom: 100px; */
+}   
+
+.article6 .gallery-text h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: #222;
+}
+
+.article6 .gallery-text p{
+    color: #777;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+
+.article6 img{
+    width: 302px;
+    height: 302px;
+    margin: 5px;
+    transition: all 0.4s;
+}
+
+.article6 img:hover{
+    border: 7px solid #fa5c5c;
+    transform:scale(1.1);  
+    cursor: pointer; 
+}
+
+/* section의 article6 구역  */
+
+.article7{
+    height: 400px;
+    background: #fa5c5c;;
+    margin-top: 100px;
+
+} 
+
+.article7 .part7{
+    text-align: center;
+    padding: 0 15%;
+    padding-top: 100px;
+}
+
+ .article7 .part7 h2{
+    font-size: 48px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+ }
+
+ .article7 .part7 p{
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.75;
+    margin-bottom: 35px;
+    opacity: .8;
+    letter-spacing: 2px;
+ }
+
+ .article7 .part7 a{
+    font-size: 13px;
+    letter-spacing: .1em;
+    border-radius: 30px;
+    padding: 20px 30px;
+    min-width: 170px;
+    color: #fff;
+    border-color: rgba(255,255,255,.8);
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all 0.4s;
+ }
+
+ .article7 .part7 a:hover{
+    background: #000;
+    border: none;
+    
+ }
+
+
