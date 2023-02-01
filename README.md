@@ -1,5 +1,6 @@
-참고 벤치마킹 사이트 (http://d.cafe24.com/preview/?productCode=PTHD766553&frame=P) 카페24디자인센터 
-참고 벤치마킹 사이트(반응형): https://onepick-pt.com/) 
+참고 벤치마킹 사이트 
+(http://d.cafe24.com/preview/?productCode=PTHD766553&frame=P) 카페24디자인센터 
+원픽 트레이닝 센터 사이트(반응형): https://onepick-pt.com/) 
   
 금일 수정작업 : 헤더 메뉴바(반응형까지) 단, 헤더부분은 공부목적으로 하는 것 이므로, 나중에는 depth2제외 예정 
                카테고리별 구상 및 코딩 작업
