@@ -23,6 +23,10 @@
     float: right;
 }
 
+#nav .rflogo img{
+    display: none;
+}
+
 #nav .depth1>li { 
     display:inline-block; 
     font-size:13px; 
@@ -33,7 +37,12 @@
     color: #fff;
     font-weight: 700;
     padding: 0 20px;
-    letter-spacing: 2px;  
+    letter-spacing: 2px; 
+    transition: all 0.3s;
+}
+
+#nav .depth1 > li:hover{
+    color: #888;
 }
 
 #nav .depth2 {
@@ -43,7 +52,7 @@
     color: #888; 
     line-height: 1.3em;
     display:none;
-    z-index: 999;
+
 }
 
 #nav .depth1 > li:hover > .depth2{ 

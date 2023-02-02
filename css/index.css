@@ -1,16 +1,17 @@
 
 
 /* section의 article1 구역  */
-#section .article1 > .slide1{
-    background: url(../images/mainpage/main8.jpg) no-repeat;
-    background-position: center;
+#section .article1 .slide1{
+    background: url(../images/mainpage/main1.jpg) no-repeat;
+    background-position: center top;
     background-size: cover;
     height: 800px;
-    /* filter: brightness(60%); */
-    
+    /* background-attachment: fixed; */
 }
 
-#section .slide1 > .slide1-text{ padding: 15% 15% 0;}
+#section .slide1 > .slide1-text{ 
+    padding: 15% 15% 0;
+}
 
 #section .slide1 > .slide1-text h3{
     color: #fff;
@@ -50,13 +51,13 @@
     color: #fa5c5c;
 }
 
-
-/* 슬라이드 2 */
+/* silde2 부분 */
 #section .article1 > .slide2{
-    background: url(../images/mainpage/main1.jpg) no-repeat;
+    background: url(../images/inside/inside6.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 800px;
+    /* background-attachment: fixed; */
 }
 
 #section .slide2 > .slide2-text{ padding: 15% 15% 0;}
@@ -98,12 +99,13 @@
     color: #fa5c5c;
 }
 
-/* 슬라이드 3 */
+/* slide3 부분 */
 #section .article1 > .slide3{
-    background: url(../images/inside/inside17.jpg) no-repeat;
+    background: url(../images/mainpage/main3.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 800px;
+    /* background-attachment: fixed; */
 }
 
 #section .slide3 > .slide3-text{ padding: 15% 15% 0;}
@@ -159,6 +161,7 @@
 .aboutus{
     position: relative;
     margin-top: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .aboutus .aboutus1{
@@ -243,6 +246,7 @@
     height: 400px;
     background: #fa5c5c;;
     clear: right;
+    /* margin-top: 100px; */
 } 
 
 .article3 .part3{
