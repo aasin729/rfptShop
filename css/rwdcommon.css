@@ -52,16 +52,21 @@
     } 
     
     #header #nav .depth1 {
-      position:absolute; right:0; top:0;
+        position:fixed; 
+        right:0; top:0;
         width:250px; height:100%; 
         background:#fff; 
-        padding-top:50px;   
+        padding-top:50px; 
+        overflow-y: auto;
+        overflow-x: hidden;
+       
     }
+  
 
     #header #nav .rflogo > img {
         display: block;
         position: fixed;
-        top: 50px; right: 32px; 
+        top: 70px; right: 32px; 
         z-index: 99999; 
         width: 150px;
         height: 130px;
@@ -71,7 +76,7 @@
         display:block; 
         font-size:13px; 
         left: 20px;
-        top: 15%; 
+        top: 18%; 
         text-align: left;
         position:relative; 
         line-height: 5px;

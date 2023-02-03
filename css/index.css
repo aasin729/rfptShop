@@ -398,9 +398,8 @@
 
 .article7{
     height: 400px;
-    background: #fa5c5c;;
+    background: #fa5c5c;
     margin-top: 100px;
-
 } 
 
 .article7 .part7{
@@ -441,7 +440,165 @@
  .article7 .part7 a:hover{
     background: #000;
     border: none;
-    
  }
 
 
+ /* section의 article8 구역  */
+
+ .article8{
+     width: 1330px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ 
+ .article8 .contact-text{
+     text-align: center;
+     margin: 50px;
+ }   
+ 
+ .article8 .contact-text h2{
+     font-size: 40px;
+     font-weight: normal;
+     color: #222;
+ }
+ 
+ .article8 .contact-text p{
+     color: #777;
+     line-height: 1.9;
+     margin-top: 20px;
+ }
+
+ .article8 .Reservation div {
+    position: relative;
+    height: 400px;
+    float: left; width: 25%;
+    justify-content: space-between;
+    text-align: center;   
+    margin-top: 30px;
+ } 
+
+ .article8 .Reservation a > img {
+    border-radius: 15%;
+ }
+
+ .article8 .Reservation h2{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+ }
+
+ .article8 .Reservation p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #222;
+    font-weight: 500;
+    line-height: 1.5;
+ }
+ .article8 .Reservation strong{
+    font-weight: bold;
+    font-size: 18px;
+    color: #fa5c5c;
+ }
+
+
+/* section의 article9 구역  */
+
+.article9{
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.article9 .location-text{
+    text-align: center;
+    margin: 50px;
+}   
+
+.article9 .location-text h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: #222;
+}
+
+.article9 .location-text p{
+    color: #777;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+
+.article9 .location-text strong{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fa5c5c;
+}
+
+
+.article9 .map{
+    float: left;   
+}
+
+.article9 .map iframe{
+    width: 500px;
+    height: 400px;
+    border-radius: 10%;
+    border-style: none;
+}
+
+.article9 .location-nav{
+    text-align: center;
+}
+
+.article9 .location-nav h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.article9 .location-nav p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.article9 .location-nav span{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+
+.article9 .btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.article9 .btn a:first-child{
+    display:inline-block; 
+    background:#f7e600;
+    color: #000;
+    font-weight: 600;
+    padding:14px 24px; 
+    border-radius:5px; 
+    margin-left:15px; 
+    transition: all 0.4s;
+} 
+
+.article9 .btn a:nth-child(2){
+    display:inline-block; 
+    background: #00c046;
+    color: #fff;
+    font-weight: 600;
+    padding:14px 24px; 
+    border-radius:5px; 
+    margin-left:15px; 
+    transition: all 0.4s;
+}
+
+.article9 .btn a:hover{
+    opacity: 0.7;
+}
