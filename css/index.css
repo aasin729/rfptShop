@@ -152,16 +152,11 @@
 
 .article2{
     width: 1300px; 
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
+    height: 700px;
+    margin: auto;
 }
 .aboutus{
-    position: relative;
     margin-top: 100px;
-    /* margin-bottom: 100px; */
 }
 
 .aboutus .aboutus1{
@@ -174,7 +169,7 @@
 }
 
 .aboutus .aboutus1 > .info {
-    margin-top: 50px;
+    margin-top: 20px;
     display: block;
     
 }
@@ -202,7 +197,7 @@
     width: 500px;
     height: 550px;
     float: left;
-    margin-top: 50px;
+    margin-top: 10px;
     
 }
 
@@ -215,7 +210,7 @@
 }
 
 .aboutus .aboutus3 > .info {
-    margin-top: 50px;
+    margin-top: 20px;
     display: block;
     
 }
@@ -246,7 +241,7 @@
     height: 400px;
     background: #fa5c5c;;
     clear: right;
-    /* margin-top: 100px; */
+    /* margin-top: 50px; */
 } 
 
 .article3 .part3{
@@ -265,9 +260,9 @@
  .article3 .part3 p{
     font-weight: 300;
     color: #fff;
-    line-height: 1.75;
+    line-height: 2;
     margin-bottom: 35px;
-    opacity: .8;
+    letter-spacing: 2px;
  }
 
  .article3 .part3 a{
@@ -447,6 +442,7 @@
 
  .article8{
      width: 1330px;
+     height: 500px;
      margin-left: auto;
      margin-right: auto;
      padding-left: 15px;
@@ -470,8 +466,12 @@
      margin-top: 20px;
  }
 
- .article8 .Reservation div {
-    position: relative;
+ /* .article8 .reservation{
+    height: 300px;
+ } */
+
+ .article8 .reservation div {
+    /* position: relative; */
     height: 400px;
     float: left; width: 25%;
     justify-content: space-between;
@@ -479,24 +479,29 @@
     margin-top: 30px;
  } 
 
- .article8 .Reservation a > img {
+ .article8 .reservation a > img {
     border-radius: 15%;
+    transition: all 0.4s;
  }
 
- .article8 .Reservation h2{
+ .article8 .reservation a > img:hover{
+    transform: scale(1.1);
+ }
+
+ .article8 .reservation h2{
     margin-top: 20px;
     font-size: 25px;
     font-weight: 500;
  }
 
- .article8 .Reservation p{
+ .article8 .reservation p{
     margin-top: 20px;
     font-size: 15px;
     color: #222;
     font-weight: 500;
     line-height: 1.5;
  }
- .article8 .Reservation strong{
+ .article8 .reservation strong{
     font-weight: bold;
     font-size: 18px;
     color: #fa5c5c;
@@ -506,11 +511,16 @@
 /* section의 article9 구역  */
 
 .article9{
+    background: #ded5d5;
+    padding-bottom: 100px;
+}
+
+.article9 .location{
     width: 1330px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .article9 .location-text{
@@ -525,7 +535,7 @@
 }
 
 .article9 .location-text p{
-    color: #777;
+    color: #000;
     line-height: 1.9;
     margin-top: 20px;
 }
@@ -533,12 +543,13 @@
 .article9 .location-text strong{
     font-size: 18px;
     font-weight: 700;
-    color: #fa5c5c;
+    color: #000;
 }
 
 
 .article9 .map{
-    float: left;   
+    float: left; 
+    margin-left: 100px; 
 }
 
 .article9 .map iframe{
@@ -548,7 +559,8 @@
     border-style: none;
 }
 
-.article9 .location-nav{
+.article9 .location-info{
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -565,15 +577,14 @@
     margin-bottom: 20px;
 }
 
-.article9 .location-nav span{
+.article9 .location-nav strong{
     font-size: 18px;
     font-weight: bold;
-    color: red;
+    color: #fa5c5c;
 }
 
 
 .article9 .btn{
-    text-align: center;
     margin-top: 40px;
 }
 
@@ -600,5 +611,7 @@
 }
 
 .article9 .btn a:hover{
-    opacity: 0.7;
+    opacity: 0.6;
 }
+
+
