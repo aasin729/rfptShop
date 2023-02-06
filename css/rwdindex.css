@@ -2,73 +2,179 @@
 
 @media screen and ( max-width:1024px){
 
+/* section의 article1 구역  */
 
-/* section의 article2 구역 */
+#section .article1 { position: relative;} 
 
-.aboutus{
-    margin-top: 50px;
+#section .slide {height: 70vw; 
+    background-size:cover; 
+    background-position:center;
+    position: relative;
 }
 
-.aboutus .aboutus2 > img {
+#section .slide1{ background-image: url(../images/mainpage/main1.jpg) }
+#section .slide2{ background-image: url(../images/mainpage/main9.jpg) }
+#section .slide3{ background-image: url(../images/mainpage/main3.jpg) }
+
+
+ #section .slide > .slide-text{ 
+    position:absolute; top:50%;
+    transform:translateY(-70%); 
+    color:#fff; text-align:center;
+    width:100%; 
+} 
+
+#section .slide> .slide-text h3{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#section .slide > .slide-text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+#section .slide > .slide-text p{
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.8;
+}
+#section .slide > .slide-text a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-top: 35px;
+    padding: 16px 36px;
+    border-radius: 30px;
+    background-color: #fa5c5c;
+    transition: all 0.4s;
+}
+
+#section .slide > .slide-text a:hover{
+    background: #fff;
+    color: #fa5c5c;
+}
+
+/* 슬라이드 버튼 적용하기 */
+
+.article1 .slick-arrow{
+    position: absolute; top: 50%; transform: translateY(-50%);
+    font-size: 30px; color: #fff; border: none;
+}
+.article1 .slick-prev { left: 50px; z-index: 9;}
+.article1 .slick-next { right: 50px;}
+
+.article1 .slick-dots { 
+    position: absolute; bottom: 30px; 
+    width: 100%; text-align: center;
+}
+
+.article1 .slick-dots li { 
+    display: inline-block; margin: 0 5px;
+    width: 40px; height: 3px; background:rgba(0,0,0,1);
+    position: relative;
+}
+
+.article1 .slick-dots li button {
+    border: none; position: absolute;
+    width: 0px; height: 3px; background: #fff; 
+    top: 0; left: 0; text-indent: -9999px; overflow: hidden;
+}
+
+.article1 .slick-dots li.slick-active button{
+    animation: btnani 3s both;
+} 
+
+@keyframes btnani {
+    0% { width: 0px;} 
+    100% { width: 40px;}
+}
+
+
+/* section의 article2 구역 */
+.article2{
+    width: 100%;
+    height: 100%;
+}
+
+.article2 .aboutus{
+    margin-top: 30px;
+    
+}
+
+.article2 .aboutus .aboutus2 > img {
     display: none;
 }
 
-.aboutus .aboutus1{
+.article2 .aboutus .aboutus1{
     width: 100%;
     text-align: left;
     word-break: keep-all;  
     padding-left: 70px;
+    
 }
 
-.aboutus .aboutus1 > .info > .icon{
-    font-size: 35px;
+
+.article2 .aboutus .aboutus1 > .info > .icon{
+    font-size: 30px;
     color: #fa5c5c;
 }
 
-.aboutus .aboutus1 > .info > h3{
-    font-size: 16px;
+.article2 .aboutus .aboutus1 > .info > h3{
+    font-size: 15px;
     font-weight: 700;
     color: #333;
     margin: 15px 0 20px;
 }
 
 
-.aboutus .aboutus1 > .info > p {
-    font-size: 13px;
+.article2 .aboutus .aboutus1 > .info > p {
+    font-size: 11px;
     font-weight: 500;
     color: #666;
     line-height: 1.8;
     display: block;
-  
+ 
 }
-.aboutus .aboutus3{
+
+.article2 .aboutus .aboutus3{
     width: 100%;
     float: none;
     text-align: left;
     word-break: keep-all;  
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-.aboutus .aboutus3 > .info > .icon{
-    font-size: 35px;
+.article2 .aboutus .aboutus3 > .info > .icon{
+    font-size: 30px;
     color: #fa5c5c;
 }
 
-.aboutus .aboutus3 > .info > h3{
-    font-size: 16px;
+.article2 .aboutus .aboutus3 > .info > h3{
+    font-size: 15px;
     font-weight: 700;
     color: #333;
     margin: 15px 0 20px;
 }
 
 
-.aboutus .aboutus3 > .info > p {
-    font-size: 13px;
+.article2 .aboutus .aboutus3 > .info > p {
+    font-size: 12px;
     font-weight: 500;
     color: #666;
     line-height: 1.8;
     display: block;
+   
+   
 }
+
 
  /* section의 article3구역  */
 
@@ -114,6 +220,7 @@
  }
 
 
+
  /* section의 article4 구역  */
 .article4{
     width: 100%;
@@ -147,6 +254,7 @@
 }
 
 
+
 /* section의 article5 구역  */
 .article5 { padding:100px 0; 
     background:url(../images/rf2.jpg) no-repeat center top;
@@ -171,6 +279,7 @@
     color: #fa5c5f;
     line-height: 1.5;
 }
+
 
 
 
@@ -214,18 +323,20 @@
 }
 
 
+
 /* section의 article7 구역  */
 
 .article7{
-    height: 330px;
+    width: 100%;
+    height: 100%;
     background: #fa5c5c;
     margin-top: 40px;
+    
 } 
 
 .article7 .part7{
     text-align: center;
-    padding: 0 15%;
-    padding-top: 50px;
+    padding: 10% 15%;
 }
 
  .article7 .part7 h2{
@@ -257,11 +368,12 @@
     transition: all 0.4s;
  }
 
+
  /* section의 article8 구역  */
 
  .article8{
     width: 100%;
-    height: 200px;
+    height: 170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -320,7 +432,7 @@
 .article9{
     background: #000;
     padding-bottom: 30px;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .article9 .location{
@@ -331,7 +443,7 @@
 
 .article9 .location-text{
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }   
 
 .article9 .location-text h2{
@@ -363,7 +475,7 @@
 .article9 .location-nav p{
     font-size: 12px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #fff;
 }
 
@@ -402,9 +514,6 @@
 
 
  
-
-
-
 
 
 

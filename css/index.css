@@ -1,89 +1,46 @@
 
 
 /* section의 article1 구역  */
-#section .article1 .slide1{
-    background: url(../images/mainpage/main1.jpg) no-repeat;
-    background-position: center top;
-    background-size: cover;
-    height: 800px;
-    /* background-attachment: fixed; */
+
+#section .article1 { position: relative;} 
+
+#section .slide {height: 50vw; 
+    background-size:cover; 
+    background-position:center;
+    position: relative;
 }
 
-#section .slide1 > .slide1-text{ 
-    padding: 15% 15% 0;
-}
+#section .slide1{ background-image: url(../images/mainpage/main1.jpg) }
+#section .slide2{ background-image: url(../images/mainpage/main9.jpg) }
+#section .slide3{ background-image: url(../images/mainpage/main3.jpg) }
 
-#section .slide1 > .slide1-text h3{
+
+ #section .slide > .slide-text{ 
+    padding: 20% 20% 0;
+} 
+
+#section .slide> .slide-text h3{
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-#section .slide1 > .slide1-text h2 {
-    font-size: 65px;
+#section .slide > .slide-text h2 {
+    font-size: 67px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 25px;
 }
-#section .slide1 > .slide1-text p{
-    font-size: 20px;
+#section .slide > .slide-text p{
+    font-size: 22px;
     font-weight: 500;
     color: #fff;
     line-height: 1.8;
 }
-#section .slide1 > .slide1-text a{
+#section .slide > .slide-text a{
     display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: .1em;
-    margin-top: 35px;
-    padding: 16px 36px;
-    border-radius: 30px;
-    background-color: #fa5c5c;
-    transition: all 0.4s;
-    
-}
-
-#section .slide1 > .slide1-text a:hover{
-    background: #fff;
-    color: #fa5c5c;
-}
-
-/* silde2 부분 */
-#section .article1 > .slide2{
-    background: url(../images/inside/inside6.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 800px;
-    /* background-attachment: fixed; */
-}
-
-#section .slide2 > .slide2-text{ padding: 15% 15% 0;}
-
-#section .slide2 > .slide2-text h3{
-    color: #fff;
     font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
-#section .slide2 > .slide2-text h2 {
-    font-size: 65px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 25px;
-}
-#section .slide2 > .slide2-text p{
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
-    line-height: 1.8;
-}
-#section .slide2 > .slide2-text a{
-    display: inline-block;
-    font-size: 14px;
     font-weight: 600;
     color: #fff;
     letter-spacing: .1em;
@@ -94,58 +51,47 @@
     transition: all 0.4s;
 }
 
-#section .slide2 > .slide2-text a:hover{
+#section .slide > .slide-text a:hover{
     background: #fff;
     color: #fa5c5c;
 }
 
-/* slide3 부분 */
-#section .article1 > .slide3{
-    background: url(../images/mainpage/main3.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 800px;
-    /* background-attachment: fixed; */
+/* 슬라이드 버튼 적용하기 */
+
+.article1 .slick-arrow{
+    position: absolute; top: 50%; transform: translateY(-50%);
+    font-size: 60px; color: #fff; border: none;
+}
+.article1 .slick-prev { left: 50px; z-index: 9;}
+.article1 .slick-next { right: 50px;}
+
+.article1 .slick-dots { 
+    position: absolute; bottom: 30px; 
+    width: 100%; text-align: center;
 }
 
-#section .slide3 > .slide3-text{ padding: 15% 15% 0;}
-
-#section .slide3 > .slide3-text h3{
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 20px;
+.article1 .slick-dots li { 
+    display: inline-block; margin: 0 5px;
+    width: 80px; height: 4px; background:rgba(0,0,0,1);
+    position: relative;
 }
 
-#section .slide3 > .slide3-text h2 {
-    font-size: 65px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 25px;
-}
-#section .slide3 > .slide3-text p{
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
-    line-height: 1.8;
-}
-#section .slide3 > .slide3-text a{
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: .1em;
-    margin-top: 35px;
-    padding: 16px 36px;
-    border-radius: 30px;
-    background-color: #fa5c5c;
-    transition: all 0.4s;
+.article1 .slick-dots li button {
+    border: none; position: absolute;
+    width: 0px; height: 4px; background: #fff; 
+    top: 0; left: 0; text-indent: -9999px; overflow: hidden;
 }
 
-#section .slide3 > .slide3-text a:hover{
-    background: #fff;
-    color: #fa5c5c;
+.article1 .slick-dots li.slick-active button{
+    animation: btnani 3s both;
+} 
+
+
+@keyframes btnani {
+    0% { width: 0px;} 
+    100% { width: 80px;}
 }
+
 
 
 /* section의 article2 구역 */
