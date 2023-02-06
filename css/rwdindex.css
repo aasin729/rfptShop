@@ -247,8 +247,10 @@
 }
 
 .article4 img{
-    width: 212px;
-    height: 212px;
+    width: 47%;
+    height: 47%;
+    /* width: 212px;
+    height: 212px; */
     margin: 5px;
     transition: all 0.4s;
 }
@@ -310,8 +312,10 @@
 
 
 .article6 img{
-    width: 212px;
-    height: 212px;
+    width: 47%;
+    /* height: 45%; */
+    /* width: 212px;
+    height: 212px; */
     margin: 5px;
     transition: all 0.4s;
 }
