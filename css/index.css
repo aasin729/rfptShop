@@ -21,7 +21,7 @@
 
 #section .slide .slide-text h3{
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 20px;
     transform: translateY(-100%); opacity: 0;
@@ -34,7 +34,7 @@
 
 
 #section .slide .slide-text h2 {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 35px;
@@ -48,7 +48,7 @@
 
 
 #section .slide  .slide-text p{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
     color: #fff;
     line-height: 1.8;
@@ -63,7 +63,7 @@
 
 #section .slide  .slide-text a{
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
     letter-spacing: .1em;
@@ -132,88 +132,81 @@
 /* section의 article2 구역 */
 
 .article2{
-    width: 1300px; 
-    height: 700px;
-    margin: auto;
+    margin: 100px auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 .aboutus{
-    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
 }
 
 .aboutus .aboutus1{
-    width: 30%;
+    width: 33.33%;
     float: left;
     text-align: right;
-    padding-right: 70px;
-    display: block;
-    
+    padding-right: 50px;
 }
 
-.aboutus .aboutus1 > .info {
-    margin-top: 20px;
-    display: block;
-    
+.aboutus .aboutus1  .info {
+    margin-top: 20px;  
 }
 
-.aboutus .aboutus1 > .info > .icon{
+.aboutus .aboutus1 .info .icon{
     font-size: 48px;
     color: #fa5c5c;
 }
 
-.aboutus .aboutus1 > .info > h3{
+.aboutus .aboutus1  .info  h3{
     font-size: 18px;
     font-weight: 700;
     color: #333;
     margin: 15px 0 20px;
 }
 
-.aboutus .aboutus1 > .info > p {
+.aboutus .aboutus1 .info  p {
     font-size: 15px;
     font-weight: 500;
     color: #666;
     line-height: 1.8;
 }
 
-.aboutus .aboutus2 > img {
-    width: 500px;
-    height: 550px;
-    float: left;
-    margin-top: 10px;
-    
+.aboutus .aboutus2 {
+    width: 33.33%;
+    float: left; 
 }
 
 .aboutus .aboutus3{
-    width: 30%;
+    width: 33.33%;
     float: right;
-    padding-left: 70px;
-    display: block;
-    
+    text-align: left;
+    padding-left: 50px;  
 }
 
-.aboutus .aboutus3 > .info {
+.aboutus .aboutus3 .info {
     margin-top: 20px;
-    display: block;
-    
 }
 
-.aboutus .aboutus3 > .info > .icon{
+.aboutus .aboutus3 .info  .icon{
     font-size: 48px;
     color: #fa5c5c;
 }
 
-.aboutus .aboutus3 > .info > h3{
+.aboutus .aboutus3  .info  h3{
     font-size: 18px;
     font-weight: 700;
     color: #333;
     margin: 15px 0 20px;
 }
 
-.aboutus .aboutus3 > .info > p {
+.aboutus .aboutus3 .info p {
     font-size: 15px;
     font-weight: 500;
     color: #666;
     line-height: 1.8;
 }
+
 
 
  /* section의 article3구역  */
@@ -292,18 +285,17 @@
     margin-top: 20px;
 }
 
-.article4 img{
-    width: 302px;
-    height: 302px;
-    margin: 5px;
-    transition: all 0.4s;
+
+.article4 ul li { 
+    width: 24%; float: left; margin:5px 0.5%; transition: all 0.4s;
 }
 
-.article4 img:hover{
-    border: 7px solid #fa5c5c;
-    transform:scale(1.1);  
-    cursor: pointer; 
+.article4 ul li:hover{
+    transform: scale(1.1); 
+    border: 7px solid #fa5c5c; 
+   
 }
+
 
 
 /* section의 article5 구역  */
@@ -344,7 +336,6 @@
 .article6 .gallery-text{
     text-align: center;
     margin: 50px;
-    /* margin-bottom: 100px; */
 }   
 
 .article6 .gallery-text h2{
@@ -359,23 +350,20 @@
     margin-top: 20px;
 }
 
-.article6 img{
-    width: 302px;
-    height: 302px;
-    margin: 5px;
-    transition: all 0.4s;
-}
 
-.article6 img:hover{
-    border: 7px solid #fa5c5c;
-    transform:scale(1.1);  
-    cursor: pointer; 
-}
+.article6 ul li { 
+    width: 24%; float: left; margin:10px 0.5%; 
+    transition: all 0.4s;}
+
+.article6 ul li:hover{
+    transform: scale(1.1); 
+    border: 7px solid #fa5c5c; }
+
 
 /* section의 article7 구역  */
 
 .article7{
-    height: 400px;
+    height: 420px;
     background: #fa5c5c;
     margin-top: 100px;
 } 
