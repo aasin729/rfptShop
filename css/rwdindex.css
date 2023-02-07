@@ -65,7 +65,7 @@
 
 .article1 .slick-arrow{
     position: absolute; top: 50%; transform: translateY(-50%);
-    font-size: 30px; color: #fff; border: none;
+    font-size: 25px; color: #fff; border: none;
 }
 .article1 .slick-prev { left: 50px; z-index: 9;}
 .article1 .slick-next { right: 50px;}
@@ -94,6 +94,11 @@
 @keyframes btnani {
     0% { width: 0px;} 
     100% { width: 40px;}
+}
+
+.article1 .plpa { position: absolute; bottom: 23px;
+    left: 50%; margin-left: 80px; font-size: 20px;
+    color: #000; cursor: pointer;
 }
 
 
