@@ -1,32 +1,67 @@
-var ww = $(window).width()
-if (ww>1024) {
+var deviceSize = 1024 
+
+function scrollOX(status){
+    $('html').css({
+        overflowY:status
+    })
+    return $('html').width()
+}
+
+var scX = scrollOX('hidden')
+var scO = scrollOX('scroll')
+var scD = scX - scO 
+
+if(scD>0){
+    deviceSize = deviceSize - scD 
+}
+
+
+let ww = $(window).width()
+if(ww>deviceSize){
     $('html').addClass('pc')
-} else {
+}else{
     $('html').addClass('mobile')
 }
 
-$('#header .open').on('click', function(){
-    $(this).next().stop().slideToggle()
-})
 
-$('#nav .depth1 > li').on('mouseover mouseout', function(){
-    if ( $('html').hasClass('pc') ) {
-        $(this).find('.depth2').stop().slideToggle()
+$(window).on('resize', function(){
+    let ww = $(window).width()
+    if(ww>deviceSize && !$('html').hasClass('pc')){
+        $('html').addClass('pc').removeClass('mobile')
+        location.reload()
+    }else if(ww<=deviceSize && !$('html').hasClass('mobile')){
+        $('html').addClass('mobile').removeClass('pc')
+        location.reload()
     }
+       
 })
 
 
-$('#nav .depth1 > li > button').on('click', function(){
-    if ( $('html').hasClass('mobile') ) {
-        if ( $(this).find('i').hasClass('fa-chevron-down') ) {
-            $(this).next().stop().slideDown()
-            $(this).find('i').removeClass('fa-chevron-down')
-            .addClass('fa-chevron-up')
-        } else {
-            $(this).next().stop().slideUp()
-            $(this).find('i').removeClass('fa-chevron-up')
-            .addClass('fa-chevron-down')
-        }
-        return false
-    }
-})
+//===================================================================
+
+// $('#header .open').on('click', function(){
+//     $(this).next().stop().slideToggle()
+// })
+
+// $('#nav .depth1 > li').on('mouseover mouseout', function(){
+//     if ( $('html').hasClass('pc') ) {
+//         $(this).find('.depth2').stop().slideToggle()
+//     }
+// })
+
+//======================================================================
+
+// $('#nav .depth1 > li > button').on('click', function(){
+//     if ( $('html').hasClass('mobile') ) {
+//         if ( $(this).find('i').hasClass('fa-chevron-down') ) {
+//             $(this).next().stop().slideDown()
+//             $(this).find('i').removeClass('fa-chevron-down')
+//             .addClass('fa-chevron-up')
+//         } else {
+//             $(this).next().stop().slideUp()
+//             $(this).find('i').removeClass('fa-chevron-up')
+//             .addClass('fa-chevron-down')
+//         }
+//         return false
+//     }
+// })
