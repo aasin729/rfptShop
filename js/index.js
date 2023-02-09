@@ -23,7 +23,7 @@ $('.article1 .plpa i').on('click', function(){
 
 //스크롤 이벤트 
 
-//article2 부분
+//article2, article4, article6 부분
 
 let article2Near = $('.article2').offset().top - $(window).height()/2
 
