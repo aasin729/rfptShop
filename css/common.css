@@ -24,13 +24,20 @@
     float: right;
 }
 
-#nav .rflogo img{
+/* #nav .rflogo img{
     display: none;
-}
+} */
+
+#nav .depth1>li>img{
+    display: none;
+} 
+
+
+
 
 #nav .depth1>li { 
     display:inline-block; 
-    font-size:13px; 
+    font-size:15px; 
     /* right: 150px; */
     bottom: 12px;
     position:relative; 
