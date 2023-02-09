@@ -2,7 +2,7 @@
 
 /* section의 article1 구역  */
 
-#section .article1 { position: relative;} 
+#section .article1 { position: relative; } 
 
 #section .slide {height: 50vw; 
     background-size:cover; 
@@ -187,7 +187,6 @@
     float: left; 
     transform: translateY(-120%);
     opacity: 0;
-
 }
 
 .aboutus.on .aboutus2{
@@ -283,7 +282,7 @@
 
 /* section의 article4 구역  */
 .article4{
-    width: 1330px;
+    max-width: 1330px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -315,6 +314,7 @@
     transition: all 0.2s 0s;
 }
 
+
 .article4.on ul li:nth-child(1){transition-delay: 0s;}
 .article4.on ul li:nth-child(2){transition-delay: 0s;}
 .article4.on ul li:nth-child(3){transition-delay: 0s;}
@@ -331,12 +331,14 @@
 
 .article4.on ul li{ transform: scale(1); opacity: 1; transition: all 1s;}
 
-
-.article4 ul li:hover{
-    transform: scale(1.1); 
-    border: 7px solid #fa5c5c; 
+.article4 ul li img {
+    transition: all 0.4s;
+    cursor: pointer;
 }
 
+.article4 ul li img:hover{
+    border: 9px solid #fa5c5c; 
+}
 
 
 /* section의 article5 구역  */
@@ -367,7 +369,7 @@
 
 /* section의 article6 구역  */
 .article6{
-    width: 1330px;
+    max-width: 1330px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -417,10 +419,14 @@
 
 .article6.on ul li{ transform: scale(1); opacity: 1; transition: all 1s;}
 
+.article6 ul li img {
+    transition: all 0.4s;
+    cursor: pointer;
+}
 
-.article6 ul li:hover{
-    transform: scale(1.1); 
-    border: 7px solid #fa5c5c; }
+.article6 ul li img:hover{
+    border: 9px solid #fa5c5c; 
+}
 
 
 /* section의 article7 구역  */
@@ -475,7 +481,7 @@
  /* section의 article8 구역  */
 
  .article8{
-     width: 1330px;
+     max-width: 1330px;
      height: 500px;
      margin-left: auto;
      margin-right: auto;
@@ -514,8 +520,8 @@
  } 
 
  .article8 .reservation a > img {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     border-radius: 15%;
     transition: all 0.4s;
  }
@@ -552,7 +558,7 @@
 }
 
 .article9 .location{
-    width: 1330px;
+    max-width: 1330px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
@@ -581,7 +587,6 @@
     font-weight: 700;
     color: #fa5c5c;
 }
-
 
 .article9 .map{
     float: left; 

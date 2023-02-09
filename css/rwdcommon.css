@@ -3,7 +3,8 @@
 
     #header > .row { position: relative; z-index: 9999;}
 
-    .row{ height: 70px; margin:0 auto; 
+    .row{  width: 100%;
+           height: 70px; margin:0 auto; 
            padding-left: 20px;
            padding-right: 20px;
            background: #000;
@@ -130,12 +131,12 @@
     }
 
     #footer .info1 h1{
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 700;
     }
 
     #footer .info1 p{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     #footer .info3{
