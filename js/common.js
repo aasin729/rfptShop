@@ -36,8 +36,34 @@ $(window).on('resize', function(){
        
 })
 
+// 인트로화면 0%~ 100% 이후에 메인화면 넘어가기 
+$(window).on('load', function(){
 
-//===================================================================
+    let count = 0; 
+    let timer = setInterval(add, 25)
+
+    function add(){
+        count++
+        if(count>=100) { 
+            clearInterval(timer) 
+            $('.introAni').delay(500).fadeOut()
+
+        }
+        $('.introAni div').eq(1).text(count+'%')
+    }
+
+
+    // 새로고침하면 현재 위치한 스크롤바 위치를 맨위로 
+    $('html').animate({
+        scrollTop:0
+    }, 100)
+
+})
+
+
+
+
+//==========헤더 메뉴 하단메뉴 부분(공부목적)=============================
 
 // $('#header .open').on('click', function(){
 //     $(this).next().stop().slideToggle()
@@ -65,3 +91,4 @@ $(window).on('resize', function(){
 //         return false
 //     }
 // })
+
