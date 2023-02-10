@@ -1,4 +1,10 @@
  @charset "utf-8";
+
+@media screen and ( max-width:1270px){
+    #header #nav { display: none;}
+}
+
+
  @media screen and ( max-width:1024px){
 
     #header > .row { position: relative; z-index: 9999;}
@@ -7,7 +13,6 @@
            height: 70px; margin:0 auto; 
            padding-left: 20px;
            padding-right: 20px;
-           background: #000;
     }
 
     .row h1{
@@ -62,22 +67,12 @@
         overflow-x: hidden;
     }
   
-    /* #header #nav .rflogo > img {
-        display: block;
-        position: fixed;
-        top: 70px; right: 32px; 
-        z-index: 9; 
-        width: 150px;
-        height: 130px;
-    } */
-
     #header #nav .depth1>li>img{
         display: block;
         width: 170px;
         height: 140px;
         padding-left: 15%;
     }
-
 
     #nav .depth1>li { 
         display:block; 
@@ -160,34 +155,7 @@
         padding-right: 10px;
     }
 
-
     .introAni { display: none;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }

@@ -1,14 +1,16 @@
 @charset "utf-8";
 
 .row{ height: 90px; margin:0 auto; 
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-right: 100px; 
     background: #000;
     z-index: 9999;
     position: fixed;
     left: 0; right: 0;
 }
 
+#header .open{
+    display: none;
+}
 
 .row h1{
     float: left;    
@@ -17,31 +19,24 @@
     color: #fff;
     font-weight: 700;
     font-size: 30px;
-    margin: 0 50px;
+    /* margin: 0 50px; */
+    margin-left: 70px;
    }    
 
 #nav { 
     float: right;
 }
 
-/* #nav .rflogo img{
-    display: none;
-} */
-
 #nav .depth1>li>img{
     display: none;
 } 
 
 
-
-
 #nav .depth1>li { 
     display:inline-block; 
     font-size:15px; 
-    /* right: 150px; */
-    bottom: 12px;
     position:relative; 
-    line-height: 80px;
+    line-height: 90px;
     color: #fff;
     font-weight: 700;
     padding: 0 20px;
@@ -140,10 +135,8 @@
     z-index: 999999999999; 
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
-    
 }
 
 .introAni > div > img {
     width: 130px; height: 130px;
-
 }

@@ -4,7 +4,7 @@
 
 #section .article1 { position: relative; } 
 
-#section .slide {height: 50vw; 
+#section .slide {height: 48vw; 
     background-size:cover; 
     background-position:center;
     position: relative;
@@ -159,7 +159,7 @@
     transform: translateX(0%); opacity: 1; transition: all 1s 0.3s;
 }
 
-.aboutus .aboutus1  .info {
+.aboutus .aboutus1 .info {
     margin-top: 20px;  
 }
 

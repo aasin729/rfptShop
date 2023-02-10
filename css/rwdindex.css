@@ -126,6 +126,8 @@
     float: none;
     text-align: left;
     padding-left: 50px;
+    transform: translateX(0%);
+    opacity: 1;
 }
 
 .aboutus .aboutus1 .info {
@@ -161,7 +163,9 @@
     width: 100%;
     float: none;
     text-align: left;
-    /* padding-right: 50px; */
+    transform: translateX(0%);
+    opacity: 1;
+   
 }
 
 .aboutus .aboutus3 .info {
@@ -186,6 +190,7 @@
     color: #666;
     line-height: 1.8;
 }
+
 
 
 
@@ -335,7 +340,29 @@
 
 .article6 ul li { 
     width: 49%; float: left; margin:10px 0.5%; 
-    transition: all 0.4s;}
+    transform: scale(1); opacity: 1;
+    transition: all 0.2s 0s;}
+
+    .article6.on ul li:nth-child(1){transition-delay: 0s;}
+    .article6.on ul li:nth-child(2){transition-delay: 0s;}
+    .article6.on ul li:nth-child(3){transition-delay: 0s;}
+    .article6.on ul li:nth-child(4){transition-delay: 0s;}
+    .article6.on ul li:nth-child(5){transition-delay: 0s;}
+    .article6.on ul li:nth-child(6){transition-delay: 0s;}
+    .article6.on ul li:nth-child(7){transition-delay: 0s;}
+    .article6.on ul li:nth-child(8){transition-delay: 0s;}
+    .article6.on ul li:nth-child(9){transition-delay: 0s;}
+    .article6.on ul li:nth-child(10){transition-delay: 0s;}
+    .article6.on ul li:nth-child(11){transition-delay: 0s;}
+    .article6.on ul li:nth-child(12){transition-delay: 0s;}
+    .article6.on ul li:nth-child(13){transition-delay: 0s;}
+    .article6.on ul li:nth-child(14){transition-delay: 0s;}
+    .article6.on ul li:nth-child(15){transition-delay: 0s;}
+    .article6.on ul li:nth-child(16){transition-delay: 0s;}
+    
+    .article6.on ul li{ transform: scale(1); opacity: 1; transition: all 1s;}
+
+
 
 .article6 ul li img {
     transition: all 0.4s;
