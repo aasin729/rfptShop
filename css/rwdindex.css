@@ -2,6 +2,10 @@
 
 @media screen and ( max-width:1024px){
 
+#section { 
+    padding-top: 70px;
+}    
+
 /* section의 article1 구역  */
 
 #section .article1 { position: relative;} 
