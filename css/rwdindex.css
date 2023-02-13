@@ -4,9 +4,10 @@
 
 #section { 
     padding-top: 70px;
-}    
+}
 
 /* section의 article1 구역  */
+
 
 #section .article1 { position: relative;} 
 
@@ -197,7 +198,6 @@
 
 
 
-
  /* section의 article3구역  */
 
  .article3{
@@ -271,6 +271,7 @@
 }
 
 
+
 .article4 ul li { 
     width: 49%; float: left; margin:10px 0.5%; 
     transition: all 0.4s;}
@@ -278,6 +279,10 @@
 .article4 ul li img {
     transition: all 0.4s;
     cursor: pointer;
+}
+
+.imgbox { 
+    width: 80%;
 }
 
 .article4 ul li img:hover{
@@ -565,16 +570,5 @@
     margin-left:15px; 
     transition: all 0.4s;
 }
-
-
-
- 
-
-
-
-
-
-
-
 
 }

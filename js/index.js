@@ -57,4 +57,117 @@ $(window).on('scroll', function(){
 })
 
 
+// article4 이미지 클릭하면 이미지를 모달창에서 크게 보기
+
+$('.article4 ul li img').on('click', function(){
+    let src = $(this).attr('src')
+    let modal = '<div class="modal">'
+    modal += `<div class="imgbox">`
+    modal += `<img src="${src}" alt="">`
+    modal += `<button type="button"><i class="fa-solid fa-x"></i></button>`
+    modal += `</div>`
+    modal += `</div>`
+
+    $('body').append(modal)
+
+    $('.modal').css({
+        position:'fixed',
+        top:0,
+        left:0,
+        width:'100%',
+        height:'100%',
+        background:'rgba(0,0,0,0.7)'
+    })
+
+
+    if ($('html').hasClass('pc')){
+        $('.imgbox').css({
+            position:'absolute',
+            width:'35vw',
+            top:'50%',
+            left:'50%',
+            transform:'translate(-50%, -50%)'
+        })
+    }else {
+        $('.imgbox').css({
+            position:'absolute',
+            width:'80vw',
+            top:'50%',
+            left:'50%',
+            transform:'translate(-50%, -50%)'
+        })
+    }
+
+    $('.imgbox button').css({
+        position:'absolute',
+        top:'0',
+        right:'0',
+        background:'#000',
+        color:'#fff',
+        padding:'5px 5px',
+        fontSize: '20px'
+    })
+
+})
+
+// 모달창의 닫기 버튼 클릭하면 모달창 닫게 하기
+$('body').on('click', '.modal button, .modal', function(){
+    $('.modal').hide()
+})
+
+
+
+
+// article6 이미지 클릭하면 이미지를 모달창에서 크게 보기
+
+$('.article6 ul li img').on('click', function(){
+    let src = $(this).attr('src')
+    let modal = '<div class="modal">'
+    modal += `<div class="imgbox">`
+    modal += `<img src="${src}" alt="">`
+    modal += `<button type="button"><i class="fa-solid fa-x"></i></button>`
+    modal += `</div>`
+    modal += `</div>`
+
+    $('body').append(modal)
+
+    $('.modal').css({
+        position:'fixed',
+        top:0,
+        left:0,
+        width:'100%',
+        height:'100%',
+        background:'rgba(0,0,0,0.7)'
+    })
+
+
+    if ($('html').hasClass('pc')){
+        $('.imgbox').css({
+            position:'absolute',
+            width:'30vw',
+            top:'50%',
+            left:'50%',
+            transform:'translate(-50%, -50%)'
+        })
+    }else {
+        $('.imgbox').css({
+            position:'absolute',
+            width:'80vw',
+            top:'50%',
+            left:'50%',
+            transform:'translate(-50%, -50%)'
+        })
+    }
+
+    $('.imgbox button').css({
+        position:'absolute',
+        top:'0',
+        right:'0',
+        background:'#000',
+        color:'#fff',
+        padding:'5px 5px',
+        fontSize: '20px'
+    })
+
+})
 

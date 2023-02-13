@@ -332,7 +332,7 @@
 .article4.on ul li{ transform: scale(1); opacity: 1; transition: all 1s;}
 
 .article4 ul li img {
-    transition: all 0.4s;
+    transition: all 0.3s;
     cursor: pointer;
 }
 
@@ -420,7 +420,7 @@
 .article6.on ul li{ transform: scale(1); opacity: 1; transition: all 1s;}
 
 .article6 ul li img {
-    transition: all 0.4s;
+    transition: all 0.3s;
     cursor: pointer;
 }
 
