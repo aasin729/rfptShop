@@ -131,6 +131,7 @@
     float: none;
     text-align: left;
     padding-left: 50px;
+    padding-right: 0;
     transform: translateX(0%);
     opacity: 1;
 }
@@ -444,7 +445,7 @@
 }   
 
 .article8 .contact-text h2{
-    font-size: 21px;
+    font-size: 25px;
     font-weight: normal;
     color: #222;
 }
