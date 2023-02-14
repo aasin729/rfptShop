@@ -32,8 +32,7 @@ $(window).on('resize', function(){
     }else if(ww<=deviceSize && !$('html').hasClass('mobile')){
         $('html').addClass('mobile').removeClass('pc')
         location.reload()
-    }
-       
+    }     
 })
 
 // 인트로화면 0%~ 100% 이후에 메인화면 넘어가기 

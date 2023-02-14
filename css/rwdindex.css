@@ -126,6 +126,13 @@
     overflow: hidden;
 }
 
+.article2 .aboutus-text{
+    text-align: center;
+    padding: 50px 0;
+    display: none;
+}   
+
+
 .aboutus .aboutus1{
     width: 100%;
     float: none;
@@ -434,7 +441,7 @@
 
  .article8{
     width: 100%;
-    height: 170px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -445,7 +452,7 @@
 }   
 
 .article8 .contact-text h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: normal;
     color: #222;
 }
@@ -459,7 +466,7 @@
 
 
 .article8 .reservation div {
-   height: 270px;
+   height: 250px;
    float: left; width: 25%;
    justify-content: space-between;
    text-align: center;   
@@ -493,7 +500,7 @@
 .article9{
     background: #000;
     padding-bottom: 30px;
-    margin-top: 200px;
+    margin-top: 270px;
 }
 
 .article9 .location{
@@ -504,7 +511,7 @@
 
 .article9 .location-text{
     text-align: center;
-    margin: 10px;
+    padding: 5px 0;
 }   
 
 .article9 .location-text h2{
