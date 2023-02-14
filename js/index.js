@@ -104,8 +104,9 @@ $('.article4 ul li img').on('click', function(){
         right:'0',
         background:'#000',
         color:'#fff',
-        padding:'5px 5px',
-        fontSize: '20px'
+        border : 'none',
+        padding:'4px 4px',
+        fontSize: '18px'
     })
 
 })
