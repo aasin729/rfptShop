@@ -441,9 +441,8 @@
 
  .article8{
     width: 100%;
-    height: 100px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
 
 .article8 .contact-text{
@@ -451,7 +450,7 @@
 }   
 
 .article8 .contact-text h2{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     color: #222;
 }
@@ -460,12 +459,12 @@
     color: #777;
     line-height: 1.9;
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 
 .article8 .reservation div {
-   height: 250px;
+   height: 200px;
    float: left; width: 25%;
    justify-content: space-between;
    text-align: center;   
@@ -499,7 +498,7 @@
 .article9{
     background: #000;
     padding-bottom: 30px;
-    margin-top: 280px;
+    padding-top: 30px;
 }
 
 .article9 .location{

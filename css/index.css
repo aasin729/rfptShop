@@ -501,9 +501,8 @@
  /* section의 article8 구역  */
 
  .article8{
-    padding: 50px 0;
+     padding: 50px 0;
      max-width: 1330px;
-     height: 650px;
      margin-left: auto;
      margin-right: auto;
      padding-left: 15px;
@@ -527,13 +526,11 @@
      margin-top: 20px;
  }
 
- .article8 .reservation{
-    height: 300px;
- }
+  .article8 .reservation{
+    overflow: hidden;
+ } 
 
  .article8 .reservation div {
-    /* position: relative; */
-    height: 400px;
     float: left; width: 25%;
     justify-content: space-between;
     text-align: center;   
@@ -575,7 +572,8 @@
 
 .article9{
     background: #000;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 .article9 .location{
