@@ -11,7 +11,7 @@ https://aasin729.github.io/rfptShop/
 
 [2]. 벤치마킹 사이트 선정 : 
 
--카페24지다인센터 :  http://d.cafe24.com/preview/?productCode=PTHD766553&frame=P 
+- 카페24지다인센터 :  http://d.cafe24.com/preview/?productCode=PTHD766553&frame=P 
 - 원픽 퍼스널트레이닝 : https://onepick-pt.com/ 
 
  두 사이트 각각에서 필요한 부분 참고하였고
