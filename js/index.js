@@ -64,7 +64,7 @@ $('.article4 ul li img').on('click', function(){
     let modal = '<div class="modal">'
     modal += `<div class="imgbox">`
     modal += `<img src="${src}" alt="">`
-    modal += `<button type="button"><i class="fa-solid fa-x"></i></button>`
+    modal += `<button type="button">닫기</button>`
     modal += `</div>`
     modal += `</div>`
 
@@ -106,17 +106,16 @@ $('.article4 ul li img').on('click', function(){
         color:'#fff',
         border : 'none',
         padding:'4px 4px',
-        fontSize: '18px'
+        fontSize: '15px',
+        fontWeight: 'bold'
     })
 
 })
 
 // 모달창의 닫기 버튼 클릭하면 모달창 닫게 하기
 $('body').on('click', '.modal button, .modal', function(){
-    $('.modal').hide()
+    $('.modal').remove()
 })
-
-
 
 
 // article6 이미지 클릭하면 이미지를 모달창에서 크게 보기
@@ -126,7 +125,7 @@ $('.article6 ul li img').on('click', function(){
     let modal = '<div class="modal">'
     modal += `<div class="imgbox">`
     modal += `<img src="${src}" alt="">`
-    modal += `<button type="button"><i class="fa-solid fa-x"></i></button>`
+    modal += `<button type="button">닫기</button>`
     modal += `</div>`
     modal += `</div>`
 
@@ -166,8 +165,9 @@ $('.article6 ul li img').on('click', function(){
         right:'0',
         background:'#000',
         color:'#fff',
-        padding:'5px 5px',
-        fontSize: '20px'
+        padding:'4px 4px',
+        fontSize: '15px',
+        fontWeight: 'bold'
     })
 
 })
