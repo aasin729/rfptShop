@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 :root{
-    --color-primary: #ff8f00;
-
-
+    --color-primary: #ab47bc;
 }
 
 html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
@@ -17,9 +15,18 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
     position: relative;
 }
 
-#section .slide1{ background-image: url(../images/mainpage/main1.jpg) }
-#section .slide2{ background-image: url(../images/mainpage/main9.jpg) }
-#section .slide3{ background-image: url(../images/mainpage/main3.jpg) }
+#section .slide1{ 
+    background-blend-mode: multiply;
+    background-color: #9e9e9e;
+    background-image: url(../images/mainpage/main1.jpg) }
+#section .slide2{
+    background-blend-mode: multiply;
+    background-color: #9e9e9e;
+     background-image: url(../images/mainpage/main9.jpg) }
+#section .slide3{
+    background-blend-mode: multiply;
+    background-color: #9e9e9e;
+     background-image: url(../images/mainpage/main3.jpg) }
 
 
 #section .slide  .slide-text{ 
@@ -89,7 +96,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 
 #section .slide .slide-text a:hover{
     background: #fff;
-    color: #fa5c5c;
+    color: var(--color-primary);
 }
 
 
@@ -188,7 +195,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 
 .aboutus .aboutus1 .info .icon{
     font-size: 48px;
-    color: #fa5c5c;
+    color: var(--color-primary);
 }
 
 .aboutus .aboutus1  .info  h3{
@@ -235,7 +242,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 
 .aboutus .aboutus3 .info  .icon{
     font-size: 48px;
-    color: #fa5c5c;
+    color: var(--color-primary);
 }
 
 .aboutus .aboutus3  .info  h3{
@@ -257,7 +264,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 
  .article3{
     height: 400px;
-    background: #fa5c5c;;
+    background: var(--color-primary);;
     clear: right;
     /* margin-top: 50px; */
 } 
@@ -364,7 +371,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 }
 
 .article4 ul li img:hover{
-    border: 9px solid #fa5c5c; 
+    border: 9px solid var(--color-primary); 
 }
 
 
@@ -372,6 +379,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 .article5 { 
     padding:150px 0; 
     text-align:center; 
+    
 }
 .article5 .bg { 
     position:fixed;
@@ -390,14 +398,14 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
     word-break:keep-all;
     margin-bottom: 20px; 
     font-weight: 400;
-    color:#fa5c5c;
+    color: var(--color-primary)
 }
 
 .article5 h2 {  
     word-break:keep-all;  
     font-size: 36px;
     font-weight: 500;
-    color: #fa5c5f;
+    color: var(--color-primary);
     line-height: 1.5;
 }
 
@@ -468,7 +476,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 }
 
 .article6 ul li img:hover{
-    border: 9px solid #fa5c5c; 
+    border: 9px solid var(--color-primary); 
 }
 
 
@@ -476,7 +484,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 
 .article7{
     height: 420px;
-    background: #fa5c5c;
+    background: var(--color-primary);
     /* margin-top: 100px; */
 } 
 
@@ -632,7 +640,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 .article9 .location-text strong{
     font-size: 18px;
     font-weight: 700;
-    color: #fa5c5c;
+    color: var(--color-primary);
 }
 
 .article9 .map{
@@ -669,7 +677,7 @@ html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 .article9 .location-nav strong{
     font-size: 18px;
     font-weight: bold;
-    color: #fa5c5c;
+    color: var(--color-primary);
 }
 
 
