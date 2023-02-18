@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
+:root{
+    --color-primary: #ff8f00;
+
+
+}
+
+html{ scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
 
 /* section의 article1 구역  */
 #section .article1 { position: relative; } 
@@ -69,7 +77,7 @@
     margin-top: 35px;
     padding: 16px 36px;
     border-radius: 30px;
-    background-color: #fa5c5c;
+    background-color: var(--color-primary);
     /* transition: all 0.5s; */
     transform: translateY(100%); opacity: 0;
     transition: all 0.5s 0.6s;
